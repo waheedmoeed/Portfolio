@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">abdulwaheed.tech</a>
+  <a href="https://portfolio-puce-chi.vercel.app/" target="_blank">abdulwaheed.tech</a>
 </h2>
 
 <br/>

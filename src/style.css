@@ -741,3 +741,28 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.blogs{
+  display: flex;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 120px !important;
+}
+
+.blog{
+  width: 23rem;
+  height: 10rem;
+  margin-bottom:10%;
+  background: "transparent";
+  color: white
+}
+
+.blog>:hover{
+  border: 1px solid #700c86;
+}
+
+.blogheader{
+}

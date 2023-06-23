@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import {ImBlog} from "react-icons/im";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -90,15 +91,15 @@ function NavBar() {
             {/*  </Nav.Link>*/}
             {/*</Nav.Item>*/}
 
-            {/*<Nav.Item>*/}
-            {/*  <Nav.Link*/}
-            {/*    href="https://soumyajitblogs.vercel.app/"*/}
-            {/*    target="_blank"*/}
-            {/*    rel="noreferrer"*/}
-            {/*  >*/}
-            {/*    <ImBlog style={{ marginBottom: "2px" }} /> Blogs*/}
-            {/*  </Nav.Link>*/}
-            {/*</Nav.Item>*/}
+            <Nav.Item>
+              <Nav.Link
+                  as={Link}
+                  to="/blogs"
+                  onClick={() => updateExpanded(false)}
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
