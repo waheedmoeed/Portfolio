@@ -5,15 +5,14 @@ import {
     DiReact,
     DiNodejs,
     DiMongodb,
-    DiPython,
     DiGit,
-    DiJava, DiAws,
+    DiAws,
 } from "react-icons/di";
 import {
     SiRedis,
+    SiPostgresql,
     SiFirebase,
-    SiSolidity,
-    SiPostgresql, SiNestjs, SiApachekafka,
+   SiNestjs, SiApachekafka,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
